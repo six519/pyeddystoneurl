@@ -1,7 +1,7 @@
 pyeddystoneurl
 ==============
 
-Python C Extension To Scan Eddystone-URL Beacons
+Python C Extension To Scan Eddystone-URL Bluetooth Low Energy Beacons
 
 Scanning With Non-Root User
 ===========================
