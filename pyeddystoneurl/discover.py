@@ -93,4 +93,11 @@ def discover(timeout):
                 lineToRemove = cleanLine[:4]
                 cleanLine = cleanLine.replace(lineToRemove, "")
                 ret[dev['address']]['name'] = codecs.decode(cleanLine, "hex")
+
+    #clean up devices
+    #remove devices that doesn't have a url
+    for k,v in ret.items():
+        if ret[k]["url"] == "":
+            del ret[k]
+
     return ret
