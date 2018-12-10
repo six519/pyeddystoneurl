@@ -11,7 +11,7 @@ setup(name="pyeddystoneurl",
     author_email="ferdinandsilva@ferdinandsilva.com",
     url="https://github.com/six519/pyeddystoneurl",
     packages=['pyeddystoneurl'],
-    classifiers=(
+    classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Natural Language :: English',
@@ -19,7 +19,7 @@ setup(name="pyeddystoneurl",
 		'Programming Language :: C',
         'License :: Freeware',
         'Topic :: Software Development :: Libraries :: Python Modules',
-    ),
+    ],
     download_url="https://github.com/six519/pyeddystoneurl",
     ext_modules=[
         Extension("pyeddystoneurl_scan",
