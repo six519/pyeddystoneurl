@@ -3,7 +3,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 setup(name="pyeddystoneurl",
-    version="1.0.0",
+    version="1.0.1",
     description="Python C Extension To Scan Eddystone-URL Beacons",
     author="Ferdinand Silva",
     author_email="ferdinandsilva@ferdinandsilva.com",
