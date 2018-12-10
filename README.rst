@@ -1,7 +1,13 @@
 pyeddystoneurl
 ==============
 
-    Python C Extension To Scan Eddystone-URL Beacons
+Python C Extension To Scan Eddystone-URL Beacons
+
+Scanning With Non-Root User
+===========================
+::
+
+	sudo setcap cap_net_raw+ep /pythonpath/python
 
 Install Requirements For Linux (Ubuntu, Debian)
 ===============================================
@@ -19,7 +25,7 @@ Installing Through PyPi
 =======================
 ::
 
-	sudo pip install pyeddystoneurl
+	pip install pyeddystoneurl
 
 Python Sample Usage
 ===================
