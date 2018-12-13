@@ -5,6 +5,8 @@
  * 
  * Author:
  * Ferdinand Silva <ferdinandsilva@ferdinandsilva.com>
+ *
+ * Thanks to: https://github.com/noble/noble
  * 
  */
 #include <python2.7/Python.h>
